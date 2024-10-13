@@ -7,19 +7,23 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+
 h1 {
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
 }
+
 h2 {
     font-size: 2em;
     margin-top: 20px;
 }
+
 h3 {
     font-size: 1.5em;
     margin-top: 15px;
 }
+
 ul {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -27,13 +31,16 @@ ul {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .task {
     list-style-type: none;
     margin-bottom: 10px;
 }
+
 .task input {
     margin-right: 10px;
 }
+
 .task.completed {
     text-decoration: line-through;
     color: #7f8c8d;
