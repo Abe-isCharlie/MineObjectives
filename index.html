@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Objetivos no Minecraft Bedrock</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .task {
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+        .task input {
+            margin-right: 10px;
+        }
+        .task.completed {
+            text-decoration: line-through;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meus Objetivos Detalhados para o Novo Mundo no Minecraft Bedrock</h1>
+
+    <h2>Construções e Projetos</h2>
+
+    <h3>1. Criar uma cidade ou vilarejo personalizado</h3>
+    <p>Construir casas para cada tipo de aldeão e criar minha comunidade única.</p>
+    <ul>
+        <li class="task"><input type="checkbox"> Planejar o layout da cidade (esboçar no papel ou usar um programa de planejamento)</li>
+        <li class="task"><input type="checkbox"> Construir pelo menos 5 casas diferentes (variar estilos e materiais)</li>
+        <li class="task"><input type="checkbox"> Adicionar espaços comunitários (praça central, parque, mercado)</li>
+        <li class="task"><input type="checkbox"> Implementar sistema de iluminação nas ruas</li>
+        <li class="task"><input type="checkbox"> Criar um mural com o mapa da cidade</li>
+    </ul>
+
+    <script>
+        document.querySelectorAll('.task input').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                this.parentElement.classList.toggle('completed', this.checked);
+            });
+        });
+    </script>
+</body>
+</html>
